@@ -4,7 +4,7 @@
  * 
  * @package simple_maicao
  * @author maicao
- * @version 1.0
+ * @version 1.1
  * @link http://maicao.fun
  */
 ?>

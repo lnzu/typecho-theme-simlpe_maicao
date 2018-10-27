@@ -4,14 +4,16 @@
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.min.css'); ?>" type="text/css" />
 <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>" type="text/css" />
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/prism.css'); ?>" type="text/css" />
+<link rel="stylesheet" href='//at.alicdn.com/t/font_892664_51zgweqhp6.css' type="text/css" />
+
 <script src="<?php $this->options->themeUrl('js/jquery.min.js'); ?>" type="text/javascript"></script>
-<script src="<?php $this->options->themeUrl('js/main.min.js'); ?>" type="text/javascript"></script>
 <script src="<?php $this->options->themeUrl('js/prism.js'); ?>" type="text/javascript"></script>
+<script src="<?php $this->options->themeUrl('js/main.min.js'); ?>" type="text/javascript"></script>
 </head>
 
 <body>
 
-<header>
+<header id="top">
 <a href="<?php $this->options->siteUrl(); ?>">首页</a>
 <a id="tag_btn">搜索</a>
 <?php $this->widget('Widget_Contents_Page_List')->parse('<a href="{permalink}">{title}</a>'); ?>
