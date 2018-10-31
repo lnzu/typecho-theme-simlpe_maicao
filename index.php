@@ -27,10 +27,9 @@
 <span id="list_categery"><?php $this->category('-'); ?></span>
 <span><?php $this->author(); ?></span>
 </div>
-<hr />
 </div>
 <?php endwhile; ?>
-<script>hideLastHr();hideListBr();</script>
+<script>hideListBr();</script>
 </div>
 
 <!-- 上一页都下一页-->
